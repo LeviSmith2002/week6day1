@@ -1,0 +1,38 @@
+body {
+    background: #dddddd;
+}
+span {
+    flex-basis: 33%;
+}
+.thingy {
+    background: #ffffff;
+    padding: 4px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px #3f3f3f;
+    margin: 6px 5% 6px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    padding: 3px;
+    border-bottom: 1px #000000;
+    margin-left: 5%;
+}
+.button {
+    margin: 6px 0px 0px 5%;
+    border: 1px #3f3f3f;
+}
+.darkMode{
+    background: #1f1f1f;
+}
+.darkMode .title{
+    color: #cfcfcf;
+}
+.darkMode .thingy{
+    background: #3f3f3f;
+    color: #cfcfcf;
+    box-shadow: 0px 2px 5px #cfcfcf;
+}
+.darkMode .button{
+    color: #1f1f1f;
+}
